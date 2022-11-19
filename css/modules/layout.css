@@ -1,3 +1,14 @@
+.section{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+.section--hero{
+    background-image: url(https://images6.alphacoders.com/456/456498.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
 .container{
     max-width: var(--max-width-container);
     margin: 0 auto;
@@ -6,9 +17,21 @@
 }
 .f-elements{
     display: flex;
-    gap: 1rem;
 }
 .f-elements--header{
     align-items: center;
     justify-content: space-between;
 }
+.f-elements--center{ 
+    align-items: center;
+    justify-content: center;
+}
+.f-elements--responsive {
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .f-elements--responsive {
+      flex-direction: row;
+    }
+}
+  
