@@ -1,6 +1,6 @@
 .nav{
     position: relative;
-    --translate-list-haeder:100%;
+    --translate-list-haeder:0;
     --scale-menu: 1;
     --scale-close:0;
     padding-top: 0.75rem;
@@ -8,7 +8,7 @@
     
 }
 .nav:target{
-    --translate-list-header: 0;
+    --translate-list-header:100%;
     --scale-menu: 0;
     --scale-close:1;
 }
