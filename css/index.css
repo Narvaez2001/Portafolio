@@ -1,5 +1,7 @@
 @import './modules/variables.css';
 @import './modules/utils.css';
+@import'./modules/buttons.css';
+@import'./modules/cards.css';
 @import './modules/layout.css';
 @import'./modules/header.css';
 @import'./modules/nav.css';

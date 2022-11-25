@@ -1,10 +1,10 @@
 :root {
     scroll-behavior: smooth;
     --primary-theme-color: #20232a;
-    --secondary-theme-color: #282c34;
+    --secondary-theme-color: #282c34b7;
     --primary-text-color: #fff;
     --secondary-text-color: #888;
-    --reverse-primary-text-color: #000;
+    --reverse-primary-text-color: rgb(0, 0, 0);
     --primary-shadow-color: #ffffff80;
     --secondary-shadow-color: #ffffff40;
     --reverse-primary-shadow-color: #00000080;
