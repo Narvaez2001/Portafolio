@@ -27,14 +27,17 @@
           <img src="./assets/img/avatar.jpg" alt="logo agustin narvaez" height="24" width="24" class="nav__logo">
         </a>
         <a href="#header-nav" class="nav__icon nav__icon--menu">
-          <i class="bi bi-x-circle"></i>
+          <i class="bi bi-list" ></i>
         </a>
         <a href="#header-close" class="nav__icon nav__icon--close">
-          <i class="bi bi-list" ></i>
+          <i class="bi bi-x-circle"></i>
         </a>
         <ul class="list list--header f-elements f-elements--center f-elements--responsive gap-md">
           <li>
             <a href="#hero" class="list__link">Perfil</a>
+          </li>
+          <li>
+            <a href="#projects" class="list__link">Proyectos</a>
           </li>
           <li>
             <a href="#experiencias" class="list__link">Experiencia</a>
@@ -46,9 +49,9 @@
       </div>
     </nav>
   </header>
-  <main>
-    <article id="hero" class="section section--hero f-elements f-elements--center">
-      <div class="container g-elements g-elements--responsive">
+  <main class="main">
+    <article id="hero" class="section hero f-elements f-elements--center">
+      <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
         <div class="card">
           <header class="card__header">
             <h1 class="card__title">Agustin Narvaez</h1>
@@ -71,13 +74,13 @@
 
           </footer>
         </div>
-        <div class="flex-1 f-elements f-elements--center">
-          <img src="./assets/img/mi perfil1.jpg" alt="ímagen de agustin" width="300" height="300">
-          <figure>
-            <img src="./assets/img/html.png" alt="iamgen de html" height="64" width="64">
-            <img src="./assets/img/css.png" alt="imagen de css" height="64" width="64">
-            <img src="./assets/img/javascript.png" alt="imagen de javascript" height="64" width="64">
-            <img src="./assets/img/react.png" alt="imagen de react" height="64" width="64">
+        <div class="hero__img">
+          <img src="./assets/img/mi perfil1.jpg" alt="ímagen de agustin" width="300" height="300" class="hero__primary-img">
+          <figure class="hero__decorators">
+            <img src="./assets/img/html.png" alt="iamgen de html" height="64" width="64" class="hero__decorator">
+            <img src="./assets/img/css.png" alt="imagen de css" height="64" width="64" class="hero__decorator">
+            <img src="./assets/img/javascript.png" alt="imagen de javascript" height="64" width="64" class="hero__decorator">
+            <img src="./assets/img/react.png" alt="imagen de react" height="64" width="64" class="hero__decorator">
           </figure>
 
         </div>
@@ -85,6 +88,29 @@
       </div>
 
     </article>
+    <section class="section" id="projects">
+      <div class="container f-elements f-direction-column gap-md">
+        <h2 class="section__title">💻 Proyectos 💻</h2>
+        <div class="g-elements gap-sm">
+          <div class="card">
+            <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2018/09/adventure-time-poster.jpg?w=1000&quality=60&strip=all&ssl=1" alt="hora de aventura" class="card__img">
+            <div class="card__body">
+              <h3 class="card__title">Hora de Aventura</h3>
+              <p class="card__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptatem aspernatur officia dicta quidem blanditiis sit distinctio? Doloremque exercitationem, error dolorum hic reiciendis ut quia rerum, aut, totam at reprehenderit.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="button button--secondary">Codigo</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
     <section id="experiencias">
       <div>
         <h2>💻 Experiencias 💻</h2>
