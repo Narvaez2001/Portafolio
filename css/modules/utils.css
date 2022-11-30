@@ -12,6 +12,9 @@
   .f-direction-column {
     flex-direction: column;
   }
+  .j-itens-center{
+    justify-items: center;
+  }
   .gap-sm {
     gap: calc(var(--padding-section) * 0.5);
   }
