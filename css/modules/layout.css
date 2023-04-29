@@ -61,7 +61,7 @@
     .f-elements--responsive {
       flex-direction: row;
     }
-  
+     
     .g-elements--responsive {
       grid-template-columns: 1fr 1fr;
     }
