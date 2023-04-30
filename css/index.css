@@ -8,6 +8,7 @@
 @import './modules/list.css';
 @import './modules/cards.css';
 @import './modules/buttons.css';
+@import './modules/span.css';
 .body {
     background-color: var(--primary-theme-color);
     color: var(--primary-text-color);
